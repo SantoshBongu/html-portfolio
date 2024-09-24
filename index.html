@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santosh - Developer Portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: rgb(21, 18, 43);
+            color: white;
+           
+        }
+        nav{
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            height:80px;
+            background-color: rgb(18, 34, 77);
+            font-family:"SUSE", sans-serif;
+        }
+        .left{
+            font-size: 2rem;
+        }
+        nav ul{
+            display:flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+
+        }
+        .first-section{
+            display: flex;
+            justify-content: space-around;
+        }
+        .first-section>div{
+           width:50%;
+        }
+        .left-section{
+            
+            padding: 40px;
+            font-size: 3rem;
+            margin:45px 0;
+        }
+        .right-section img{
+            
+            width:70% ;
+            margin: 50px 0;
+            
+        }
+        .title
+        {
+            color: rgb(194, 196, 223);
+        }
+        .right li a{
+            text-decoration:none ;
+            color:white;
+        }
+        .right li a:hover{
+            color: rgb(161, 161, 237);
+            font-size:1.05rem;
+        }
+
+
+           
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Santosh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first-section">
+            <div class="left-section">
+                Hi,<br>my name is <div class="title">Santosh</div>
+                <div>and I am Web Developer</div>
+            </div>
+            <div class="right-section">
+                <img src="https://static-00.iconduck.com/assets.00/web-developer-illustration-1004x1024-wcqgbag3.png">
+            </div>
+            <span id="element"></span>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+          typeSpeed: 50,
+        });
+      </script>
+        </section>
+    </main>
+    
+</body>
+
+</html>
